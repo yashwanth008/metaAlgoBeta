@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+#root{
+  background: black;
+}
+.nav{
+  display: flex;
+  z-index: 19;
+  box-shadow: 5px 10px #040D12;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #040D12;
+  color: white;
+  padding: 30px 25px;
+  height: 20px;
+  
+}
+.title {
+  margin-right: auto;
+  padding: 0 10px;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 1.4rem;
+}
+.nav > a{
+  padding: 0 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Smooch Sans', sans-serif;
+}
+.Nav-logo{
+  width: 40px;
+  margin-right: 7px ;
+}
+.Hero{
+  height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero-img
+{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.Hero-caption{
+    right: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  flex-direction:column;
+    bottom: 20%;
+    max-width:40%;
+    max-height: 200px;
+    font-family: 'Smooch Sans', sans-serif;
+    position: relative;
+    z-index: 20;
+    color:white;
+    text-align: center;
+}
+.Hero-caption h2{
+  
+  font-size: 3.2rem;
+  max-width:70%; 
+  color: whitesmoke;
+  padding: 0;
+  margin-bottom: 30px; 
+}
+.Hero-caption p{
+  padding: 0;
+  font-size: 1.5rem;
+  max-width: 60%;
+  color: white;
+}
+.Main{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main-img{
+  width: 45%;
+    height: 50%;
+    right: 5%;
+    position: absolute;
+}
+.Main-caption{
+   right: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  flex-direction:column;
+    bottom: 20%;
+    max-width:40%;
+    max-height: 200px;
+    font-family: 'Smooch Sans', sans-serif;
+    position: relative;
+    z-index: 20;
+    color:white;
+    text-align: center;
+}
+.Main-caption h2{
+  
+ font-size: 3.2rem;
+  max-width:70%; 
+  color: whitesmoke;
+  padding: 0;
+  margin-bottom: 30px;  
+}
+.Main-caption p{
+  padding: 0;
+  font-size: 1.5rem;
+  max-width: 60%;
+  color: white;
+}
+.Content1{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .Content1-img{
+    width: 35%;
+    height: 100%;
+    left:5%;
+    top: 190%;
+    position: absolute;
+} */
+.Content1-caption{
+   
+    display: flex;
+    flex-direction:column; 
+    align-items: center; 
+    justify-content: center;
+    font-family: 'Smooch Sans', sans-serif;
+    position: absolute;
+    margin-bottom:100px; 
+   
+    color:white;
+     text-align: center; 
+      
+}
+.Content1-caption h2{ 
+  font-size: 3rem;
+  max-width:50%;
+   
+  color: whitesmoke;
+  padding: 0;
+  margin-bottom: 0; 
+}
+.Content1-caption p{
+  padding: 0;
+  margin-top: 35px;
+  font-size: 1.5rem;
+  max-width: 50%;
+  color: white;
+}
+.contentcenter
+{
+  display: flex;
+  margin-top: 200px;
+  
+  justify-items: center;
+  
+}
+.card {
+  background:blanchedalmond;
+  background: #0f0330;
+  color:aliceblue;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  margin: 10px 20px;
+  box-shadow: 0 4px 4px 0 rgba(221, 11, 11, 0.2);
+  /* max-width: 300px; */
+  text-align: center;
+   font-family: 'Smooch Sans', sans-serif;
+}
+.card h1{
+  font-size: 1.5rem;
+   font-family: 'Smooch Sans', sans-serif;
+}
+
+.title{
+  color: grey;
+  margin-top: 10px;
+  display: inline-flex;
+  text-align: center;
+  font-size: 18px;
+  max-width: 80%;
+}
+
