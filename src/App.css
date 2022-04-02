@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.App {
-  text-align: center;
-}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 #root{
   background: black;
 }
@@ -16,26 +18,32 @@
   justify-content: space-evenly;
   background: #040D12;
   color: white;
-  padding: 30px 25px;
-  height: 20px;
+  padding: 0 25px;
+  height: 10%;
   
 }
-.title {
+.title-nav{
+  margin-right:auto;
+}
+/* .title{
   margin-right: auto;
   padding: 0 10px;
+  margin-bottom: 12px;
   font-family: 'Smooch Sans', sans-serif;
   font-size: 1.4rem;
-}
+} */
 .nav > a{
   padding: 0 40px;
+  align-items: center;
   text-decoration: none;
   color: white;
   font-size: 1.4rem;
+  text-align: center;
   font-family: 'Smooch Sans', sans-serif;
 }
 .Nav-logo{
   width: 40px;
-  margin-right: 7px ;
+  margin-left:17px;
 }
 .Hero{
   height: 100vh;
@@ -46,7 +54,7 @@
 }
 .Hero-img
 {
-  width: 100%;
+    width: 100%;
     height: 100%;
     position: absolute;
 }
@@ -56,7 +64,7 @@
     justify-content: flex-start;
     align-items: flex-start;
   flex-direction:column;
-    bottom: 20%;
+    bottom: 3%;
     max-width:40%;
     max-height: 200px;
     font-family: 'Smooch Sans', sans-serif;
@@ -131,6 +139,8 @@
     width: 100%;
     background-color: black;
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -146,6 +156,7 @@
     display: flex;
     flex-direction:column; 
     align-items: center; 
+    top: 270%;
     justify-content: center;
     font-family: 'Smooch Sans', sans-serif;
     position: absolute;
@@ -173,35 +184,123 @@
 .contentcenter
 {
   display: flex;
-  margin-top: 200px;
-  
+  margin-top: 200px; 
   justify-items: center;
   
 }
-.card {
+.card-stat{
   background:blanchedalmond;
   background: #0f0330;
   color:aliceblue;
-  width: 300px;
+  position: relative;
+  width: 320px;
   height: 150px;
   text-align: center;
-  margin: 10px 20px;
+  margin: 100px 20px;
   box-shadow: 0 4px 4px 0 rgba(221, 11, 11, 0.2);
   /* max-width: 300px; */
   text-align: center;
    font-family: 'Smooch Sans', sans-serif;
 }
-.card h1{
+.card-stat h1{
   font-size: 1.5rem;
    font-family: 'Smooch Sans', sans-serif;
 }
 
-.title{
+.title-nft-nft{
   color: grey;
-  margin-top: 10px;
+  margin-top:8px;
   display: inline-flex;
   text-align: center;
   font-size: 18px;
   max-width: 80%;
 }
+.app{
+  font-family: sans-serif;
+  display: flex;
+  margin-left: 45px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Login-img{
+  right: 0%;
+  z-index: 0;
+  width:100%;
+  height: 100%;
+  position: absolute;
+}
 
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background:#144cb362;
+  border: 1px solid #0f0330;
+  border-radius: 8%;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background:rgba(0, 0, 0, 0.404);
+  border-radius: 8%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  z-index: 10;
+  width: 35%;
+  background-color:#38fafaa9;
+  padding: 2rem;
+  border-radius:5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title-login{
+  display:flex;
+  color: #0f0330;
+  justify-content:center;
+  font-size: 2.1875rem;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+.input-container label{
+  font-size: 1.4625rem;
+}
+.Nft{
+  display: flex; 
+  justify-content: space-around;
+  
+}
+.Nft >  Card{
+  border-radius: 8px;
+}

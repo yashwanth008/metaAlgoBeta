@@ -1,6 +1,6 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-import pic from '../Images/ezz.jpg';
+import pic from '../Images/Cover.png';
 
 
 export default function Hero(){

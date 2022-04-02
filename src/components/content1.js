@@ -14,29 +14,29 @@ export default function Content1(){
 
         <div className="Content1">
             <div className="contentcenter">
-                <div class="card">
+                <div class="card-stat">
 
                     <h1>John Doe</h1>
-                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
+                    <p class="title-nft-nft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
                         quod aliquid possimus architecto accusamus quia, sint atque iusto?</p>
                 </div>
-                <div class="card">
+                <div class="card-stat">
 
                     <h1>John Doe</h1>
-                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
+                    <p class="title-nft-nft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
                         quod aliquid possimus architecto accusamus quia, sint atque iusto?</p>
                 </div>
                 
-                <div class="card">
+                <div class="card-stat">
                     
                     <h1>John Doe</h1>
-                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
+                    <p class="title-nft-nft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
                      quod aliquid possimus architecto accusamus quia, sint atque iusto?</p>
                 </div>
-                <div class="card">
+                <div class="card-stat">
 
                     <h1>John Doe</h1>
-                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
+                    <p class="title-nft-nft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ad ex molestias sed necessitatibus
                         quod aliquid possimus architecto accusamus quia, sint atque iusto?</p>
                 </div>
             </div>
